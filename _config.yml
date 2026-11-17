@@ -6,31 +6,29 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-# Basic Site Settings
+# Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Hung Tien Pham, Ph.D."
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "TS. Phạm Tiến Hùng"
+description              : &description "Lecturer & Researcher in Mechatronics, UAVs, Robotics and Intelligent Control"
+url                      : "https://pt-hung.github.io"
+baseurl                  : ""
+repository               : "pt-hung/pt-hung.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "TS. Phạm Tiến Hùng"
+  avatar           : "profile.jpg"
+  bio              : "Ph.D. Lecturer & Researcher in Mechatronics, UAVs, and Robotics."
+  location         : "Hanoi, Vietnam"
+  employer         : "Hanoi University of Industry (HaUI)"
+  email            : "phamtienhung@haui.edu.vn"
+  googlescholar    : "https://scholar.google.com/citations?user=-btZqIsAAAAJ&hl=en"
+  researchgate     : "https://www.researchgate.net/profile/Tien-Hung-Pham"
+  orcid            : "https://orcid.org/0000-0003-0180-3676"
+  linkedin         : "pham-hung-37b17217b"
+  github           : "pt-hung"
 
   # Academic websites
   academia         : # URL
